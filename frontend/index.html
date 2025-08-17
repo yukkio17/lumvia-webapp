@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lumvia</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🌿 Lumvia</h1>
+    <p>Мини‑приложение Telegram</p>
+  </header>
+
+  <main>
+    <label>Как тебя зовут?</label>
+    <input id="name" placeholder="Введите имя">
+
+    <label>Выберите настроение:</label>
+    <select id="mood">
+      <option value="спокойно">Спокойно</option>
+      <option value="в ресурсе">В ресурсе</option>
+      <option value="радостно">Радостно</option>
+      <option value="устал">Устал</option>
+    </select>
+
+    <button id="fallbackBtn">Отправить (в браузере)</button>
+  </main>
+
+  <footer>
+    © Lumvia
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

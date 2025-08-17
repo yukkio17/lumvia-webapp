@@ -1,1 +1,2 @@
-# lumvia-webapp
+# Lumvia
+Мини‑приложение для Telegram + Python‑бот.
